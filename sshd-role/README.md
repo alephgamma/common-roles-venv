@@ -1,7 +1,7 @@
 sshd_role
 =========
 
-A minimal role that copies an sshd template removing time-outs.
+A minimal role that copies an sshd template removing time-outs. By default this role's playbook runs on the control-node ( localhost )
 
 Requirements
 ------------
