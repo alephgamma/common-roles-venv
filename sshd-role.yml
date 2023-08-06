@@ -1,0 +1,6 @@
+---
+- name: sshd-role
+  hosts: localhost
+  become: yes
+  roles:
+    - sshd-role
