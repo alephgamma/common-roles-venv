@@ -6,7 +6,3 @@
     dest: /etc/ssh/sshd_config
     validate: '/usr/sbin/sshd -t -f %s'
   notify: 'restart sshd'
-- name: sshd restart
-  systemd:
-    name: sshd 
-    state: restarted
