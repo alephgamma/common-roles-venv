@@ -1,7 +1,7 @@
-Role Name
+sshd_role
 =========
 
-A brief description of the role goes here.
+A minimal role that copies an sshd template removing time-outs.
 
 Requirements
 ------------
